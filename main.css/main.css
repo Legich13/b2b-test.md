@@ -1,0 +1,768 @@
+.hamburger-menu {
+    display: none;
+}
+
+.header {
+    background-color: black;
+    padding: 15px 15px 0px 15px ;
+}
+
+.text-nav {
+    display: flex;
+}
+
+.img-nav {
+    padding-right: 5px;
+}
+  
+  .text-nav-link {
+     
+      text-decoration: none;
+      font-size: 15px;
+      font-family: "Myriad Pro";
+      color: rgb(255, 255, 255);
+      line-height: 25px;
+      
+     
+  }
+ 
+  .nav-mobail {
+      display: flex;
+  }
+
+.text-mobail-styl {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+}
+
+.hover-mobail {
+    color: #bf9037;
+}
+
+.text-mobail-styl {
+    color: rgb(255, 255, 255);
+}
+
+.hover-mobail:hover {
+    color: rgb(255, 255, 255);
+}
+
+.text-mobail-styl:hover {
+    color: #bf9037;
+}
+
+.zvonok-hover {
+    margin-top: 4px;
+}
+  
+.zvonok-hover a {
+    line-height: 2.5rem;
+    border-radius: 2.25rem ;
+    font-size: 14px;
+    border-width: 1.2px;
+    border-color: rgb(200, 171, 72);
+    border-style: solid;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 70px 10px 70px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+.zvonok-hover a:hover {
+    background-color:rgb(200, 171, 72); 
+    color: black;
+    background: -webkit-linear-gradient(180deg, rgb(195, 151, 0), rgb(255, 253, 253) 100%);
+    background: -moz-linear-gradient(180deg, rgb(195, 151, 0), rgb(255, 253, 253) 100%);
+    background: linear-gradient(180deg, rgb(195, 151, 0), rgb(255, 253, 253) 100%);
+    transition: 1s;
+}
+
+.two-bloc-muj {
+    display: none;
+}
+
+.header-main {
+    margin-top: 10px;
+}
+
+.img_myj {
+    background: url(../img/Абанеев\ Никита.png) no-repeat;
+    height: 500px;
+    background-position: 71%;
+    background-size: 400px;
+}
+
+.margin-top-col {
+    margin-top: 20px;
+    display: none;
+}
+
+.text-one {
+        font-size: 25px;
+        font-family: "PTSans";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        line-height: 1.2;
+}
+  
+.text-two {
+  
+        font-size: 65px;
+        font-family: "Myriad Pro";
+        color: rgb(191, 144, 55);
+        line-height: 1.111;
+        
+      
+}
+
+.text-tree {
+    
+        font-size: 23px;
+        font-family: "PTSans";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        line-height: 1.2;
+}
+
+
+.text-li {
+    font-size: 20px;
+    font-family: "Myriad Pro";
+    color: rgb(191, 144, 55);
+    line-height: 1.2;
+  }
+
+
+  .border-rad-flex {
+      display: flex;
+  }
+
+  .border-rad {
+      background: rgb(191, 144, 55); 
+      border-radius: 50px;
+      width: 10px;
+      margin: 10px 10px 10px 0px;
+  }
+
+  
+  .border-rad-flex::before {
+    
+    content: '';
+    position: absolute;
+    top: 244px;
+    left: 3.7%;
+    transform: translateX(-50%);
+    height: 25%;
+    width: 1px;
+    background-color: rgb(191, 144, 55); ;
+      
+  }     
+
+  .link-header {
+      margin-top: 4%;
+  }
+
+
+  .link-header-main {
+    line-height: 2.5rem;
+    border-radius: 2.25rem;
+    font-size: 14px;
+    border-width: 1.2px;
+    border-color: rgb(200, 171, 72);
+    border-style: solid;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 70px 10px 70px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  } 
+
+
+  .link-header-main:hover {
+
+    background-color:rgb(200, 171, 72); 
+    color: black;
+    background: -webkit-linear-gradient(180deg, rgb(195, 151, 0), rgb(255, 253, 253) 100%);
+    background: -moz-linear-gradient(180deg, rgb(195, 151, 0), rgb(255, 253, 253) 100%);
+    background: linear-gradient(180deg, rgb(195, 151, 0), rgb(255, 253, 253) 100%);
+    transition: 1s;
+
+  }
+
+
+  .link-header-main::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 363px;
+    width: 15%;
+    height: 1px;
+    background: rgb(191, 144, 55);
+    left: 21px;
+    }
+
+
+    .name-header {
+        
+     font-size: 12px;
+     font-family: "Myriad Pro";
+     color: rgb(255, 255, 255);
+     line-height: 1.2;
+           
+      }
+
+
+
+      .name-header::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 3%;
+        width: 426px;
+        height: 1px;
+        background: rgb(191, 144, 55);
+        left: 16px;
+        }
+      
+
+ .name-header-two {      
+    font-size: 12px;
+    font-family: "Myriad Pro";
+    color: rgb(191, 144, 55);
+    line-height: 1.2;
+}
+
+
+.main-form {
+    position: relative;
+    margin: 1rem auto 1.5rem;
+}
+
+.form-control {
+    position: relative;
+    z-index: 2;
+    border: 0px solid rgba(29, 26, 36, 0.2);
+    border-bottom: 2px solid transparent;
+    border-radius: 5px;
+    background: #f5f6f8;
+    margin: 0;
+    width: 100%;
+    padding: 0.8rem 1rem;
+    height: auto;
+    -webkit-box-shadow: inset 2px 4px 5px 0 rgba(0, 0, 0, .1);
+    box-shadow: inset 2px 4px 5px 0 rgba(0, 0, 0, .1);
+    border-radius: 1.75rem !important;
+    padding: 1.2rem 1rem !important;
+}
+
+
+.main-form-bloc {
+    width: 308px;
+}
+
+.margin-bloc {
+    margin-top: 50%;
+}
+
+
+.main-form:before {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 470px;
+    width: 485px;
+    background-image: url(../img/1_2_круг.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    background-position: center right;
+}
+
+
+.main-form:after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 523px;
+    width: 535px;
+    background-image: url(../img/3_4_круг.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}   
+
+
+
+.main-button {
+        line-height: 2.5rem;
+        border-radius: 2.25rem;
+        font-size: 14px;
+        border-width: 1.2px;
+        border-color: rgb(200, 171, 72);
+        border-style: solid;
+        text-align: center;
+        text-decoration: none;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        padding: 10px 30px 10px 30px;
+        background-color: rgb(200, 171, 72);
+        margin-left: 10%;
+}
+
+.text-main {
+    margin-top: 5%;
+}
+
+.text-main-one {
+    
+        font-size: 40px;
+        font-family: "PTSans";
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.375;
+       
+}
+
+
+.text-expert {
+        font-size: 100px;
+        font-family: "Myriad Pro";
+        color: rgb(191, 144, 55);
+        line-height: 1.2;
+}
+
+.text-expert-two {
+    font-size: 23px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    background-color: rgb(125, 125, 125);
+    margin-left: 5%;
+    padding-top: 2%;
+}
+
+.link-header  a:hover {
+    background-color:rgb(145, 145, 145); 
+    color: black;
+    background: -webkit-linear-gradient(180deg, rgb(195, 151, 0), rgb(255, 253, 253) 100%);
+    background: -moz-linear-gradient(180deg, rgb(195, 151, 0), rgb(255, 253, 253) 100%);
+    background: linear-gradient(180deg, rgb(195, 151, 0), rgb(255, 253, 253) 100%);
+    transition: 1s;
+}
+
+.main-form-bloc span {
+    color: rgb(191, 144, 55);
+}
+
+
+.main__img-hover:hover {
+    position: relative;
+    opacity: 2;
+    transform: scale(1.1);
+} 
+
+
+.footer {
+    margin-top: 5%;
+    background: black;
+}
+
+
+@media (min-width: 1280px) {
+    .margin-bloc {
+        margin-top: 23%;
+        margin-left: 21%;
+    }
+}
+
+
+@media (max-width: 1280px) {
+    .zvonok-hover a {
+        padding: 8px 60px 10px 60px;
+    }
+    .text-nav-link {
+        font-size: 12px;
+        line-height: 18px;
+    }   
+
+    .margin-bloc {
+            margin-top: 28%;
+            margin-left: 22%;
+        }
+    }   
+
+   
+}
+
+@media (max-width: 1024px) {
+    .zvonok-hover a {
+        padding: 8px 20px 10px 20px;
+    }   
+
+    .text-mobail-styl {
+        font-size: 13px;
+    }
+
+
+.text-nav-link {
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.border-rad-flex::before {
+    content: '';
+    position: absolute;
+    top: 244px;
+    left: 4.5%;
+    transform: translateX(-50%);
+    height: 29%;
+    width: 1px;
+    background-color: rgb(191, 144, 55);
+}
+
+.link-header-main::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 383px;
+    width: 15%;
+    height: 1px;
+    background: rgb(191, 144, 55);
+    left: 20px;
+}
+
+.name-header::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 3%;
+    width: 340px;
+    height: 1px;
+    background: rgb(191, 144, 55);
+    left: 16px;
+}
+
+.margin-bloc {
+    margin-top: 31%;
+    margin-left: 16%;
+}
+
+
+}
+
+
+@media (max-width: 770px) {
+
+ .burger {
+     display: none;
+ }
+
+ .hamburger-menu {
+     display: block;
+     
+ } 
+
+
+ .name-header::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 3%;
+    width: 253px;
+    height: 1px;
+    background: rgb(191, 144, 55);
+    left: 16px;
+}
+.link-header {
+    width: 300px;
+    margin-left: 50%;
+    margin-top: 24%;
+
+}
+
+.text-one {
+    font-size: 17px;
+}
+
+.text-two {
+    font-size: 36px;
+}
+
+.border-rad-flex::before {
+    content: '';
+    position: absolute;
+    top: 190px;
+    left: 6%;
+    transform: translateX(-50%);
+    height: 36%;
+    width: 1px;
+    background-color: rgb(191, 144, 55);
+}
+
+.link-header-main::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 363px;
+    width: 44%;
+    height: 1px;
+    background: rgb(191, 144, 55);
+    left: 21px;
+}
+
+.margin-bloc {
+    margin-top: 0%;
+    margin-left: 27%;
+}
+
+.main-button-stl {
+    width: 300px;
+    margin-left: 7%;
+    margin-top: 5%;
+}
+
+.footer {
+    margin-top: 10%;
+   
+}
+ 
+}   
+
+@media (max-width: 500px) {
+    .img_myj {
+        background:none;
+        height: 500px;
+        background-position: 71%;
+        background-size: 400px;
+    }
+
+    .two-bloc-muj {
+        display: none;
+        margin-top: 5%;
+    }
+
+
+    .text-two {
+        font-size: 33px;
+    }
+
+
+    .header {
+        padding: 15px 0px 0px 0px;
+    }
+
+    .name-header::before {
+        display: none;
+    }
+
+    .link-header-main::before {
+        display: none;
+    }
+
+
+    .border-rad-flex::before {
+        display: none;
+    }
+
+
+    .border-rad {
+        display: none;
+    }
+
+    .link-header {
+        width: 250px;
+        margin-left: 50%;
+    }
+
+    .link-header-main {
+        font-size: 19px;
+        padding: 8px 10px 10px 10px;
+       
+    }
+
+
+    .text-main-one {
+        font-size: 17px;
+    } 
+
+    .text-expert {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .text-expert-two {
+        font-size: 20px;
+        margin-left: 0%;
+        padding: 2%;
+        text-align: center;
+    }   
+
+    .main-form:before {
+        content: "";
+        position: absolute;
+        display: block;
+        height: 470px;
+        width: 453px;
+        background-image: url(../img/1_2_круг.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        background-position: center right;
+    }   
+
+    .main-form:after {
+        content: "";
+        position: absolute;
+        display: block;
+        height: 490px;
+        width: 490px;
+        background-image: url(../img/3_4_круг.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+    }   
+
+    .main-button-stl {
+        width: 250px;
+        margin-left: 6%;
+    }   
+
+    .margin-bloc {
+        margin-top: 0%;
+        margin-left: 13%;
+    }
+    
+}
+
+
+@media (max-width: 320px) {
+    .img_myj {
+        background:none;
+        height: 500px;
+        background-position: 71%;
+        background-size: 400px;
+    }
+
+    .two-bloc-muj {
+        display: none;
+    }
+
+
+    .text-two {
+        font-size: 33px;
+    }
+
+
+    .header {
+        padding: 15px 0px 0px 0px;
+    }
+
+    .name-header::before {
+        display: none;
+    }
+
+    .link-header-main::before {
+        display: none;
+    }
+
+
+    .border-rad-flex::before {
+        display: none;
+    }
+
+
+    .border-rad {
+        display: none;
+    }
+
+    .link-header {
+        width: 250px;
+        margin-left: 22%;
+    }
+
+    .link-header-main {
+        font-size: 19px;
+        padding: 8px 10px 10px 10px;
+       
+    }   
+
+    .main-form:before {
+        content: "";
+        position: absolute;
+        display: block;
+        height: 470px;
+        width: 453px;
+        background-image: url(../img/1_2_круг.png) none;
+        background-size: contain;
+        background-repeat: no-repeat;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        background-position: center right;
+        display: none;
+    }   
+
+    .main-form:after {
+        content: "";
+        position: absolute;
+        display: block;
+        height: 490px;
+        width: 490px;
+        background-image: url(../img/3_4_круг.png) none;
+        background-size: contain;
+        background-repeat: no-repeat;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        display: none;
+    }   
+
+    .main-button-stl {
+        width: 250px;
+        margin-left: 9%;
+    }
+
+    .text-expert {
+        font-size: 39px;
+        text-align: center;
+    }
+
+
+    .two-bloc-muj {
+        display: none;
+        margin-top: 37%;
+    }   
+
+    .margin-bloc {
+        margin: 0%;
+    }
+   
+}
+
